@@ -2,7 +2,7 @@ import { test, chromium, Browser, Page, BrowserContext } from "@playwright/test"
 
 
 test('page load state test cases ', async ({ }) => {
-    //HI I am new chnages
+    //HI I am new chnages hh
     let browser: Browser = await chromium.launch({ channel: "chrome", headless: false, slowMo: 100 })
     let ctx: BrowserContext = await browser.newContext();
     let page: Page = await ctx.newPage();
